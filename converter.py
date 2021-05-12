@@ -1,9 +1,9 @@
 def converter(type_converter, unit):
     if type_converter == 1:
-        miles = unit * 1.609344
+        miles = unit / 1.609344
         return f'{unit} kilometers are {miles} miles.'
     elif type_converter == 2:
-        km = unit / 1.609344
+        km = unit * 1.609344
         return f'{unit} miles are {km} kilometers.'
 
 
