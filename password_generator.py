@@ -1,3 +1,5 @@
+# This is a bonus project
+
 import string
 import random
 
